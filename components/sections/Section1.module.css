@@ -1,0 +1,125 @@
+.contianer {
+    position: relative;
+    width: 1200px;
+
+    margin: 18px auto 100px;
+}
+
+.travellerImgWrapper {
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+    float: right;
+}
+
+.travellerImg {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.textPanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 640px;
+    position: absolute;
+    left: 0;
+    margin-top: 110px;
+}
+
+.title {
+    color: #DF6951;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: Poppins;
+    margin-bottom: 24px;
+}
+
+.text {
+    font-family: Volkhov;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: -0.04em;
+    color: #181E48;
+    max-width: 545px;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 30px;
+}
+
+
+.textDecoration {
+    position: absolute;
+    top: 69px;
+    left: 243px;
+    width: 372px;
+    height: 12px;
+    z-index: -1;
+}
+
+.description {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5E6282;
+    max-width: 477px;
+    margin-bottom: 34px;
+}
+
+.buttonGroup {
+    margin-top: 35px;
+    display: flex;
+}
+
+.btn1 {
+    padding: 0 25px;
+    height: 60px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    background: #F1A501;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 45px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    width: 165px;
+    line-height: 26px;
+    color: #686D77;
+    text-transform: capitalize;
+}
+
+.playIcon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: #DF6951;
+    border-radius: 50%;
+}

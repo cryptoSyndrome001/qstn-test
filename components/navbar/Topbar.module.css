@@ -1,0 +1,48 @@
+.contianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1160px;
+  margin: 47px auto 0;
+}
+
+.topMenuContainer {
+  display: flex;
+}
+
+.menuItem {
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #212832;
+  margin: 0 5px;
+  padding: 9px 20px;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrowIcon {
+  width: 9px;
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6px;
+}
+
+.btnBorder {
+  border: 1px solid #212832;
+  border-radius: 5px;
+}
+
+.logo {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
